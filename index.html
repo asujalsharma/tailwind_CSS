@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Animate.css for animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <style>
+        /* Additional Custom CSS for hover rotation */
+       .container{
+        background: linear-gradient(163deg, #260161 50%, #c4c2c2 50%);
+       }
+        .rotate-box:hover {
+            transition: transform 1s;
+            transform: rotate(360deg);
+        }
+        
+    </style>
+</head>
+<body class="flex justify-center">
+    <div id="assignment" class="container p-6 m-2.5">
+        <h1 class="font-mono text-4xl font-bold text-gray-300 mb-8 p-4">OUR SERVICES</h1>
+        <div class="relative grid grid-cols-1 md:grid-cols-4 gap-8">
+            <!-- Service Card 1 -->
+            <div class="rotate-box px-6 pb-6 bg-white rounded-lg shadow-lg text-center">
+                <div class="flex items-center justify-center">
+                    <img src="emergency-call.png" alt="" class="relative -top-8 bg-white border-4 rounded-full border-purple-950 p-2" height=70px width=70px>    
+                </div>
+                <h2 class="text-xl font-bold text-black">Emergency Plumbing Services</h2>
+                <p class="text-gray-600 mt-2">Our plumbers are ready to go 24/7 for emergencies - including nights, weekends, and holidays.</p>
+                <a href="#" class="text-purple-600 mt-4 inline-block font-bold font-mono">EXPLORE THIS SERVICE ></a>
+            </div>
+
+            <!-- Service Card 2 -->
+            <div class="rotate-box px-6 pb-6 bg-white rounded-lg shadow-lg text-center">
+                <div class="flex items-center justify-center">
+                    <img src="plumber.png" alt="" class="relative -top-8 bg-white border-4 rounded-full border-purple-950 p-2" height=70px width=70px>
+                </div>
+                <h2 class="text-xl font-bold text-black">Plumbing and Drains</h2>
+                <p class="text-gray-600 mt-2">As the largest plumbing and drain service company, we make thousands of repairs every day.</p>
+                <a href="#" class="text-purple-600 mt-4 inline-block font-bold font-mono">EXPLORE THIS SERVICE ></a>
+            </div>
+
+            <!-- Service Card 3 -->
+            <div class="rotate-box px-6 pb-6 bg-white rounded-lg shadow-lg text-center">
+                <div class="flex items-center justify-center">
+                    <img src="water-drop.png" alt="" class="relative -top-8 bg-white border-4 rounded-full border-purple-950 p-2" height=70px width=70px>
+                </div>
+                <h2 class="text-xl font-bold text-black">Water Damage</h2>
+                <p class="text-gray-600 mt-2">Our teams are equipped with state-of-the-art water extraction and cleanup equipment.</p>
+                <a href="#" class="text-purple-600 mt-4 inline-block font-bold font-mono">EXPLORE THIS SERVICE ></a>
+            </div>
+
+            <!-- Service Card 4 -->
+            <div class="rotate-box px-6 pb-6 bg-white rounded-lg shadow-lg text-center">
+                <div class="flex items-center justify-center">
+                    <img src="geyser.png" alt="" class="relative -top-8 bg-white border-4 rounded-full border-purple-950 p-2" height=70px width=70px>
+                </div>
+                <h2 class="text-xl font-bold text-black">Water Heaters</h2>
+                <p class="text-gray-600 mt-2">Trust Roto-Rooter for repair and replacement of gas, electric, and tankless water heaters.</p>
+                <a href="#" class="text-purple-600 mt-4 inline-block font-bold font-mono">EXPLORE THIS SERVICE ></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Adding Animate.css for rotation (if needed) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.js"></script>
+</body>
+</html>
